@@ -1,0 +1,8 @@
+{
+  "/JAVAPROJECT/webapi": {
+    "target": "http://dev-1261.nicdev.local.gov:8080",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug"
+  }
+}

@@ -1,0 +1,49 @@
+.header {
+    background: rgba(252, 231, 252, 0.11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.18);
+    border: 1px solid rgba(217, 255, 0, 0.28);
+    padding: 10px;
+}
+
+.nav-link {
+    margin: 0 15px;
+    padding: 10px 20px;
+    border: 1px solid rgba(8, 32, 100, 0.47);
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #333333;
+}
+
+.content > div {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+li{
+    float: left;
+    align-items: center;
+}
+li a{
+    display: block;
+    color: rgb(253, 253, 254);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: rgba(217, 255, 0, 0.28);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="login.component.css">
+
+</head>
+
+<body>
+
+
+
+<div class="login-box">
+    <img src= "assets/wewe.png">
+
+
+    <h1>HOSPITAIL LOGIN</h1>
+
+    <div class="textbox">
+
+        <i class="fa fa-user" aria-hidden="true"></i>
+
+        <input type="text" placeholder="Email" name="email" [(ngModel)]="loginObject.username" value="">
+
+    </div>
+
+    <div class="textbox">
+
+        <i class="fa fa-lock" aria-hidden="true"></i>
+
+        <input type="password" placeholder="Password" name="password" [(ngModel)]="loginObject.password" value="">
+
+    </div>
+
+    <input type="button" (click)="onLogin()"   class="btn" name="" value="Log in">
+
+    <p>you dont have an acount?<input type="button" class="btn_fg" name="" value="Sing up"></p>
+
+</div>
+
+</body>
+
+</html>

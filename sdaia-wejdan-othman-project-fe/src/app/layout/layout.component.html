@@ -1,0 +1,35 @@
+<div  class="image-container">
+    <img src="../assets/wewe.png" alt="Centered Image">
+
+    <br>
+
+    <nav>
+        <ul class="nav-bar">
+            <li><a href="#" (click)="showComponent('doctor'); $event.preventDefault()">Doctor</a> </li>
+            <li><a href="#" (click)="showComponent('patients'); $event.preventDefault()">Patients</a></li>
+            <li> <a href="#" (click)="showComponent('consultations'); $event.preventDefault()">Consultations</a></li>
+            <li> <a href="#" (click)="showComponent('schedules'); $event.preventDefault()">Schedules</a></li>
+            <li> <a href="#" (click)="showComponent('medicalReports'); $event.preventDefault()">Medical-Reports</a></li>
+            <li> <a href="#" (click)="showComponent('rating'); $event.preventDefault()">Ratings</a></li>
+            <li><a href="#" (click)="showComponent('doctorid'); $event.preventDefault()">DoctorId</a></li>
+            <li><a href="#" (click)="showComponent('insert'); $event.preventDefault()">RatingDoctor</a></li>
+
+        </ul>
+    </nav>
+
+<!--        <section *ngIf="currentComponent === 'doctor'">-->
+<!--            <app-doctor></app-doctor>-->
+<!--        </section>-->
+        <app-doctor *ngIf="currentComponent === 'doctor'"></app-doctor>
+        <app-patients *ngIf="currentComponent === 'patients'"></app-patients>
+        <app-consultations *ngIf="currentComponent === 'consultations'"></app-consultations>
+        <app-schedules *ngIf="currentComponent === 'schedules'"></app-schedules>
+        <app-medical-reports *ngIf="currentComponent === 'medicalReports'"></app-medical-reports>
+        <app-ratings *ngIf="currentComponent === 'rating'"></app-ratings>
+        <app-doctorid *ngIf="currentComponent === 'doctorid'"></app-doctorid>
+        <app-insert *ngIf="currentComponent === 'insert'"></app-insert>
+
+
+</div>
+
+

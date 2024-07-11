@@ -1,0 +1,29 @@
+img {
+    width: 1600px;
+    height: 250px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(127, 144, 255);
+    align-self:center;
+}
+
+li {
+    float: left;
+    align-items:center;
+}
+
+li a {
+    display: block;
+    color: rgb(253, 253, 254);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.active {
+    background-color: #7f90ff;
+}

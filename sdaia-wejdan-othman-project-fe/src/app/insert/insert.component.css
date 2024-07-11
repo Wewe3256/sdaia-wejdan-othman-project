@@ -1,0 +1,38 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid rgba(8, 32, 100, 0.47);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-container label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: rgba(8, 32, 100, 0.47);
+}
+
+.form-container input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
